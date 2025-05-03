@@ -36,13 +36,21 @@ Enhanced task sorting (by date, priority, etc.)
 📂 Folder Structure
 
 bash
+
 Copy
+
 Edit
+
+
 /task-manager-lab
+
 │
-├── index.html      # The HTML structure of the app
-├── script.js       # JavaScript logic for the task manager
-└── style.css       # Custom CSS styles for the app's design
+
+├── index.html
+
+├── script.js    
+
+└── style.css     
 
 🚀 How to Run
 
