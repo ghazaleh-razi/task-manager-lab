@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-  background-color: #0073e6d4;
+  background-color: #0073e6;
 }
 
 ul {
@@ -69,15 +69,57 @@ ul {
 
 li {
   background: rgba(255, 255, 255, 0.1);
-  margin-bottom: 0.75rem;
-  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.6rem;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
+  min-height: 40px;
 }
 
-.greeting-btn {
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.task-content {
+  flex: 1;
+  cursor: pointer;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  min-width: 65px;
+  text-align: center;
+}
+
+.delete-btn {
+  background-color: #e40f0f;
+  color: white;
+  margin-left: 3px;
+}
+.delete-btn:hover {
+  background-color: #e40f0fd7;
+}
+
+.edit-btn {
+  background-color: #ff9900;
+  color: white;
+  margin-right: 3px;
+}
+.edit-btn:hover {
+  background-color: #ff9900e2;
+}
+
+.summury-btn {
   margin-top: 2rem;
   width: 100%;
 }
